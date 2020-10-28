@@ -1,6 +1,7 @@
 import Control.Applicative
 import Data.Void
 import Data.Semigroup
+import Data.Maybe
 
 -- A CPS monad inspired generalisation of existential and universal quantifiers
 class Aggregate a where
@@ -26,3 +27,9 @@ sat f = getOption $ aggregate (\x -> Option (if f x then Just x else Nothing))
 
 allSat :: Aggregate a => (a -> Bool) -> [a]
 allSat f = aggregate (\x -> [ x | f x ])
+
+exists :: Aggregate a => (a -> Bool) -> Bool
+exists = isJust . sat
+
+forall :: Aggregate a => (a -> Bool) -> Bool
+forall f = not $ exists $ not . f
