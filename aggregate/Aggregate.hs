@@ -1,3 +1,5 @@
+module Aggregate where
+
 import Control.Applicative
 import Data.Void
 import Data.Semigroup
