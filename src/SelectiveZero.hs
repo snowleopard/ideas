@@ -29,6 +29,9 @@ instance Selective [] where
 class Selective f => SelectiveZero f where
     zero :: f a
 
+instance SelectiveZero [] where
+    zero = []
+
 rights :: SelectiveZero f => f (Either a b) -> f b
 rights x = select x zero
 
