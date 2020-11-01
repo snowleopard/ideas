@@ -20,8 +20,7 @@ source-repository head
     location: https://github.com/snowleopard/ideas.git
 
 library
-    hs-source-dirs:     countable
-                        lem
+    hs-source-dirs:     src
     exposed-modules:    Countable
                         Lem
     build-depends:      base >= 4.7 && < 5
