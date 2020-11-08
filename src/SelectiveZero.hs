@@ -1,5 +1,4 @@
-{-# LANGUAGE ConstraintKinds #-}
-{-# LANGUAGE LambdaCase, TypeApplications #-}
+{-# LANGUAGE ConstraintKinds, LambdaCase #-}
 module SelectiveZero where
 
 import Data.Functor
