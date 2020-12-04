@@ -1,4 +1,4 @@
-{-# LANGUAGE LambdaCase, TypeApplications #-}
+{-# LANGUAGE LambdaCase #-}
 module Lem where
 
 import Data.Void

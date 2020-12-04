@@ -32,10 +32,10 @@ enumerate :: Countable a => [a]
 enumerate = count pure
 
 cardinality :: forall a. Countable a => Int
-cardinality = getSum $ count $ (\(_ :: a) -> Sum 1)
+cardinality = getSum $ count (\(_ :: a) -> Sum 1)
 
 inhabited :: forall a. Countable a => Bool
-inhabited = getAny $ count $ (\(_ :: a) -> Any True)
+inhabited = getAny $ count (\(_ :: a) -> Any True)
 
 sat :: Countable a => (a -> Bool) -> Maybe a
 sat f = getFirst $ count (\x -> First (if f x then Just x else Nothing))
