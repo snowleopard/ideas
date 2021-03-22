@@ -11,7 +11,7 @@ Just a playground for experimenting with some random ideas:
   countable types whose values can be aggregated in a fixed sequence.
 
 * [Early](https://github.com/snowleopard/ideas/blob/main/src/Early.hs):
-  Composable monads and early `return` for `do`-expressions.
+  composable monads and early `return` for `do`-expressions.
 
 * [Lem](https://github.com/snowleopard/ideas/blob/main/src/Lem.hs):
   an encoding of the law of excluded middle.
