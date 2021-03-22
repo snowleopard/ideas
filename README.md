@@ -4,11 +4,20 @@
 
 Just a playground for experimenting with some random ideas:
 
+* [Components](https://github.com/snowleopard/ideas/blob/main/src/Components.hs):
+  a family of Concurrent Connected Components algorithms.
+
 * [Countable](https://github.com/snowleopard/ideas/blob/main/src/Countable.hs):
   countable types whose values can be aggregated in a fixed sequence.
+
+* [Early](https://github.com/snowleopard/ideas/blob/main/src/Early.hs):
+  Composable monads and early `return` for `do`-expressions.
+
 * [Lem](https://github.com/snowleopard/ideas/blob/main/src/Lem.hs):
   an encoding of the law of excluded middle.
+
 * [Metamorphisms](https://github.com/snowleopard/ideas/blob/main/src/Metamorphisms.hs):
   playing with metamorphisms.
+
 * [SelectiveZero](https://github.com/snowleopard/ideas/blob/main/src/SelectiveZero.hs):
   extending the `Selective` type class with `zero`.
