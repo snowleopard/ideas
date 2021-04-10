@@ -24,7 +24,9 @@ source-repository head
 
 library
     hs-source-dirs:     src
-    exposed-modules:    Countable
+    exposed-modules:    Async
+                        Components
+                        Countable
                         Early
                         Lem
                         Metamorphisms

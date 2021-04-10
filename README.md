@@ -4,6 +4,9 @@
 
 Just a playground for experimenting with some random ideas:
 
+* [Async](https://github.com/snowleopard/ideas/blob/main/src/Async.hs):
+  a basic concurrency monad with links to asynchronous circuits.
+
 * [Components](https://github.com/snowleopard/ideas/blob/main/src/Components.hs):
   a family of Concurrent Connected Components algorithms.
 
