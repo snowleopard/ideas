@@ -1,4 +1,4 @@
-{-# LANGUAGE RankNTypes, LambdaCase, GADTs, ScopedTypeVariables #-}
+{-# LANGUAGE LambdaCase #-}
 module Async where
 
 -- A basic concurrency monad, following the classic ideas from:
