@@ -16,6 +16,9 @@ Just a playground for experimenting with some random ideas:
 * [Early](https://github.com/snowleopard/ideas/blob/main/src/Early.hs):
   composable monads and early `return` for `do`-expressions.
 
+* [GraphSearch](https://github.com/snowleopard/ideas/blob/main/src/GraphSearch.hs):
+  experimenting with generic DFS and BFS graph search algorithms.
+
 * [Lem](https://github.com/snowleopard/ideas/blob/main/src/Lem.hs):
   an encoding of the law of excluded middle.
 

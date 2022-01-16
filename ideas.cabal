@@ -28,6 +28,7 @@ library
                         Components
                         Countable
                         Early
+                        GraphSearch
                         Lem
                         Metamorphisms
                         SelectiveZero
