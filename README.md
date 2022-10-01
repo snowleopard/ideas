@@ -25,5 +25,8 @@ Just a playground for experimenting with some random ideas:
 * [Metamorphisms](https://github.com/snowleopard/ideas/blob/main/src/Metamorphisms.hs):
   playing with metamorphisms.
 
+* [Nested](https://github.com/snowleopard/ideas/blob/main/src/Nested.hs):
+  nested functors, i.e., computations of the shape `f (f a)`.
+
 * [SelectiveZero](https://github.com/snowleopard/ideas/blob/main/src/SelectiveZero.hs):
   extending the `Selective` type class with `zero`.
