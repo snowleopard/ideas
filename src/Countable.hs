@@ -46,5 +46,5 @@ allSat f = count (\x -> [ x | f x ])
 exists :: Countable a => (a -> Bool) -> Bool
 exists = isJust . sat
 
-forall :: Countable a => (a -> Bool) -> Bool
-forall f = not $ exists $ not . f
+forAll :: Countable a => (a -> Bool) -> Bool
+forAll f = not $ exists $ not . f
