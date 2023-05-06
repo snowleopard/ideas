@@ -1,6 +1,6 @@
 # Ideas
 
-[![Build status](https://img.shields.io/github/workflow/status/snowleopard/ideas/ci/main.svg)](https://github.com/snowleopard/ideas/actions)
+[![Build status](https://img.shields.io/github/actions/workflow/status/snowleopard/ideas/ci.yml?branch=main)](https://github.com/snowleopard/ideas/actions)
 
 Just a playground for experimenting with some random ideas:
 
