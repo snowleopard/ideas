@@ -1,1 +1,2 @@
-resolver: lts-19.11
+resolver: lts-20.19 # ghc-9.2.7
+allow-newer: true

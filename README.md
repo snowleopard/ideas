@@ -30,3 +30,6 @@ Just a playground for experimenting with some random ideas:
 
 * [SelectiveZero](https://github.com/snowleopard/ideas/blob/main/src/SelectiveZero.hs):
   extending the `Selective` type class with `zero`.
+
+* [Task](https://github.com/snowleopard/ideas/blob/main/src/Task.hs):
+  using impredicative types for modelling tasks.
