@@ -5,31 +5,34 @@
 Just a playground for experimenting with some random ideas:
 
 * [Async](https://github.com/snowleopard/ideas/blob/main/src/Async.hs):
-  a basic concurrency monad with links to asynchronous circuits.
+  A basic concurrency monad with links to asynchronous circuits.
 
 * [Components](https://github.com/snowleopard/ideas/blob/main/src/Components.hs):
-  a family of Concurrent Connected Components algorithms.
+  A family of Concurrent Connected Components algorithms.
 
 * [Countable](https://github.com/snowleopard/ideas/blob/main/src/Countable.hs):
-  countable types whose values can be aggregated in a fixed sequence.
+  Countable types whose values can be aggregated in a fixed sequence.
 
 * [Early](https://github.com/snowleopard/ideas/blob/main/src/Early.hs):
-  composable monads and early `return` for `do`-expressions.
+  Composable monads and early `return` for `do`-expressions.
 
 * [GraphSearch](https://github.com/snowleopard/ideas/blob/main/src/GraphSearch.hs):
-  experimenting with generic DFS and BFS graph search algorithms.
+  Experimenting with generic DFS and BFS graph search algorithms.
 
 * [Lem](https://github.com/snowleopard/ideas/blob/main/src/Lem.hs):
-  an encoding of the law of excluded middle.
+  An encoding of the law of excluded middle.
 
 * [Metamorphisms](https://github.com/snowleopard/ideas/blob/main/src/Metamorphisms.hs):
-  playing with metamorphisms.
+  Playing with metamorphisms.
+
+* [Moore](https://github.com/snowleopard/ideas/blob/main/src/Moore.hs):
+  Playing with Moore machines.
 
 * [Nested](https://github.com/snowleopard/ideas/blob/main/src/Nested.hs):
-  nested functors, i.e., computations of the shape `f (f a)`.
+  Nested functors, i.e., computations of the shape `f (f a)`.
 
 * [SelectiveZero](https://github.com/snowleopard/ideas/blob/main/src/SelectiveZero.hs):
-  extending the `Selective` type class with `zero`.
+  Extending the `Selective` type class with `zero`.
 
 * [Task](https://github.com/snowleopard/ideas/blob/main/src/Task.hs):
-  using impredicative types for modelling tasks.
+  Using impredicative types for modelling tasks.
