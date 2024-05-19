@@ -14,7 +14,7 @@ selectM :: Monad f => f (Either a b) -> f (a -> b) -> f b
 selectM mx mf = do
     x <- mx
     case x of
-        Left  a -> fmap ($a) mf
+        Left  a -> fmap ($ a) mf
         Right b -> pure b
 
 instance Selective [] where

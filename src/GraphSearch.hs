@@ -6,6 +6,7 @@ import qualified Data.Set as Set
 import Control.Monad.State
 import Data.List (foldl')
 import Data.Tree
+import Control.Monad (filterM, when)
 
 -- Experimenting with general and reusable interfaces for DFS and BFS graph
 -- search algorithms. Inspired by conversations with Brent Yorgey.
