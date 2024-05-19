@@ -32,11 +32,11 @@ library
                         Lem
                         Metamorphisms
                         SelectiveZero
-    build-depends:      algebraic-graphs >= 0.5     && < 0.7,
+    build-depends:      algebraic-graphs >= 0.5     && < 0.8,
                         base             >= 4.7     && < 5,
                         containers       >= 0.5.5.1 && < 0.8,
                         extra            >= 1.7.8   && < 1.8,
-                        mtl              >= 2.2     && < 2.3,
+                        mtl              >= 2.2     && < 2.4,
                         selective        >= 0.5     && < 0.8
 
     default-language:   Haskell2010
