@@ -8,6 +8,7 @@ module Async where
 import Data.IORef
 import Data.Sequence (Seq (..), (|>))
 import qualified Data.Sequence as Seq
+import Control.Monad (join)
 import Control.Monad.Reader
 
 ------------------------------ Jobs and job queue ------------------------------

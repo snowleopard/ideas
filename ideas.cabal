@@ -3,7 +3,7 @@ version:       0.0.1
 synopsis:      Just a playground
 author:        Andrey Mokhov <andrey.mokhov@gmail.com>, github: @snowleopard
 maintainer:    Andrey Mokhov <andrey.mokhov@gmail.com>, github: @snowleopard
-copyright:     Andrey Mokhov, 2020-2023
+copyright:     Andrey Mokhov, 2020-2024
 license:       MIT
 license-file:  LICENSE
 homepage:      https://github.com/snowleopard/ideas
@@ -11,7 +11,7 @@ bug-reports:   https://github.com/snowleopard/ideas/issues
 category:      Ideas
 build-type:    Simple
 cabal-version: 1.18
-tested-with:   GHC==9.6.1, GHC==9.4.4, GHC==9.2.7, GHC==9.0.2, GHC==8.10.7
+tested-with:   GHC==9.8.2, GHC==9.6.3
 description:   Just a playground for experimenting with some random ideas
 
 extra-doc-files:
@@ -32,11 +32,11 @@ library
                         Lem
                         Metamorphisms
                         SelectiveZero
-    build-depends:      algebraic-graphs >= 0.5     && < 0.7,
+    build-depends:      algebraic-graphs >= 0.5     && < 0.8,
                         base             >= 4.7     && < 5,
                         containers       >= 0.5.5.1 && < 0.8,
                         extra            >= 1.7.8   && < 1.8,
-                        mtl              >= 2.2     && < 2.3,
+                        mtl              >= 2.2     && < 2.4,
                         selective        >= 0.5     && < 0.8
 
     default-language:   Haskell2010
@@ -46,5 +46,3 @@ library
                         -Wincomplete-record-updates
                         -Wincomplete-uni-patterns
                         -Wredundant-constraints
-    if impl(ghc >= 9.2)
-        ghc-options:    -Wno-operator-whitespace-ext-conflict
