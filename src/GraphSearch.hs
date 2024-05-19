@@ -3,6 +3,7 @@ module GraphSearch where
 
 import qualified Data.Set as Set
 
+import Prelude hiding (Foldable(..))
 import Control.Monad.State
 import Data.List (foldl')
 import Data.Tree
